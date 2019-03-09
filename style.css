@@ -1,0 +1,78 @@
+/* style.css */
+body{
+  background: rgb(240,230,200);
+  color: #549496;
+  font-size: 20px;
+  font-family: Markazi Text; serif; 
+  font-weight: bold;
+  text-align: center;
+}
+
+/*h1{
+  font-family: Courier;
+  color: green;
+  font-weight: bold;
+  font-size: 15px;*/
+/*}*/
+/*h2 {
+  font-family: Courier;
+  color: purple;
+  font-weight: bold;
+  font-size: 30px;
+}*/
+
+a {
+  color: #9B333D;
+  text-decoration: none;
+
+}
+a:hover {
+  color: #549496;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("images/car.jpg");
+  background-size: cover; 
+  height: 80vh;
+  padding: 100px;
+  color: black;
+  text-shadow: 3px 3px 3px black;
+}
+#banner h1 {
+  color: #9B333D;
+  opacity: 0.8;
+  font-size: 50px;
+  font-weight: lighter;
+  text-shadow: 1px 1px 1px black;
+}
+
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 10px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  font-family: Indie Flower;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 20px;
+}
+
+#footer a:hover {
+  color: #549496;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+
+
+
